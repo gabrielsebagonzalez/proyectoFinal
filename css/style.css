@@ -203,8 +203,7 @@ main {
     height: 400px;
 }
 .cur {
-    margin: 20px 10px;
-    padding: 10px 10px;
+    background-color:#F3F3F6;
     height: auto
 }
 
