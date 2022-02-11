@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+/* NAVBAR */
+.navbar {
+    background-color: white;
+    height: 100px;
+    padding: 0px 20px;
+}
+.logo-titulo h1 {
+    color:mediumblue;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 2rem;
+}
+.logo-titulo h3 {
+    color: red;
+    font-family: "Indie Flower";
+    font-size: 1.5rem;
+}
+.header .navbar ul li a {
+    color:black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* CAROUSEL */
+#carouselExampleInterval {
+    margin-top: 100px;
+}
+.btn__color {
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn__color:hover {
+    color: white;
+}
+.section__container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%
+}
+  
+
+#div {
+    display: flex;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: sticky;
+    top: 100px;
+    z-index: 999;
+    width: 100%;
+}
+.div__titulos {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.gallery {
+    background-color: #151515;
+}
+
+.section__title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #212121;
+    padding: 20px;
+}
+    
+
+.section__text {
+    font-family: "Quicksand" , sans-serif;
+    width: 80%;
+    padding: 15px 15px;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.titular {
+    font-size: 3rem;
+}
+.titular__parrafo {
+    font-size: 2rem;
+}
+
+#testimonios {
+    padding: 5% 10%;
+    text-align: center;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+#testimonios h2 {
+    font-weight: bold;
+}
+.img-testimonio {
+    border-radius: 10%;
+    margin: 10px;
+}
+.section__frame iframe{
+    display: flex;
+    width: 100%;
+}  
+.section__form {
+    display: flex;
+    justify-content: center;
+}
+
+.scale img:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#grid-footer {
+    background-color:#22272B;
+}
+.footer__contacto {
+    padding: 10px 10px;
+}
+
+.footer__contacto h4 {
+    padding: 10px 10px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer__contacto ul{
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+
+.footer__contacto ul li {
+    color:#AAAAAA;
+    line-height: 2.0;
+    font-family: 'Quicksand', sans-serif;
+  
+}
+.footer__contacto ul li i {
+    color: #F99C26;
+    padding: 0 5px;
+}
+.footer__redes {
+    text-align: left;
+    margin-left: 50px;
+    padding: 10px 10px;
+}
+
+.footer__redes p {
+    color: #F99C26;
+    padding: 5px 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer__redes .whatsapp {
+    position: fixed;
+    height: 60px;
+    padding: 10px;
+    bottom: 50px;
+    left: 0;
+}
+.footer__redes .whatsapp:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+    cursor: pointer;
+}
+.footer__redes .facebook:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+    cursor: pointer;
+}
+.footer__redes .instagram:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+    cursor: pointer;
+}
+.copy {
+    color: white;
+    margin-bottom: 0;
+}
+main {
+    display: block;
+}
+.servicios {
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url(../img/grupo-niños1.jpg) fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: white;
+    height: 400px;
+}
+.cur {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    height: auto
+}
+
+/* Media Queries*/
+
+@media (max-width: 768px) {
+    .header__menu {
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px) {
+    .section__frame iframe {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .section__maps iframe {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .galeria-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .logo-titulo h1 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .logo-titulo h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .header .navbar ul li a {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .detalle {
+        
+        margin-top: 400px;
+    }
+    .detalle h1 {
+        font-size: 2rem;
+        margin-left: 70px;
+    }
+    .detalle h2 {
+        font-size: 2rem;
+        margin-left: 180px;
+    }
+}
