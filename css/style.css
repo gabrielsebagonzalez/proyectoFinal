@@ -122,8 +122,11 @@ body {
 
 .scale img:hover {
     transform: scale(1.1);
-    transition: all 1s;
+    transition: all 1.5s;
     cursor: pointer;
+}
+#tru {
+    opacity: 0;
 }
 
 #grid-footer {
@@ -222,11 +225,6 @@ main {
 @media (min-width: 768px) {
     .section__maps iframe {
         width: 100%;
-    }
-}
-@media (min-width: 768px) {
-    .galeria-grid {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (max-width: 768px) {
