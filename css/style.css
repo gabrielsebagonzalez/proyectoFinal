@@ -242,17 +242,4 @@ main {
         font-size: 15px;
     }
 }
-@media (max-width: 768px) {
-    .detalle {
-        
-        margin-top: 400px;
-    }
-    .detalle h1 {
-        font-size: 2rem;
-        margin-left: 70px;
-    }
-    .detalle h2 {
-        font-size: 2rem;
-        margin-left: 180px;
-    }
-}
+
